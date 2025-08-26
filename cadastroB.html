@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tasker - Cadastro</title>
+    <link rel="stylesheet" href="meta.css">
+</head>
+<body class="bodyB">
+    <header class="cab cabB">
+        <h1 class="h1B">Tasker - Cadastro</h1>
+    </header>
+    
+    <div class="all">
+        <div class="form-container form-containerB">
+            <h2 id="form-title">Login de Usuário</h2>
+            
+            <form id="login-form" class="form-active">
+                <input type="text" id="login-username" placeholder="Usuário" required>
+                <input type="password" id="login-password" placeholder="Senha" required>
+                <button type="submit" class="enviarTask">Entrar</button>
+            </form>
+
+            <form id="register-form" class="form-hidden">
+                <input type="text" id="register-username" placeholder="Novo Usuário" required>
+                <input type="password" id="register-password" placeholder="Nova Senha" required>
+                <input type="password" id="register-confirm-password" placeholder="Confirme a Senha" required>
+                <button type="submit" class="enviarTask">Cadastrar</button>
+            </form>
+            
+            <button id="toggle-form-btn" class="enviarTask toggle-btn">Não tem conta? Cadastre-se</button>
+        </div>
+    </div>
+
+    <script src="cadastroB.js" defer></script>
+    <script src="meta.js" defer></script>
+</body>
+</html>

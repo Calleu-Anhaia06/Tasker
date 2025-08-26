@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tasker - Main</title>
+    <link rel="stylesheet" href="meta.css">
+</head>
+<body>
+    <header class="cab">
+        <h1>Tasker - Main</h1>
+        <div class="menu-container">
+            <div class="menu-icon"></div>
+            <nav class="side-menu">
+                <ul>
+                    <li><a href="metain.html">Main</a></li>
+                    <li><a href="lojain.html">Store</a></li>
+                    <li><a href="amigosin.html">Friends</a></li>
+                    <li><a href="configsin.html">Settings</a></li>
+                    <li><a href="cadastroin.html">User</a></li> 
+                </ul>
+                <ul id="ul1">
+                    <li id="user-display">User: Disconnected</li>
+                </ul>
+                <button id="delcont" class="enviarTask">Log Out of Your Account</button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="all">
+        <label class="pts" id="txt2">Your score is:</label>
+        <label class="pts" id="score-value">0</label>
+        <label class="pts" id="txt4">Pts</label>
+        <br>
+        <label class="pts" id="txt5">Total Score:</label>
+        <label class="pts" id="infinite-score-value">0</label>
+        <label class="pts" id="txt6">Pts</label>
+        <br>
+        <label class="pts" id="txt7">Taskoins:</label>
+        <label class="pts" id="daily-score">0</label>
+        <label class="pts" id="txt8">T$</label>
+        <br>
+        <button type="submit" class="enviarTask" id="meuBotao">Submit you Task!</button>
+        <input type="text" id="campo">
+        <br>
+        <div id="task-container"></div>
+
+        <div class="container">
+            <h1 class="bp">Progress Bar</h1>
+            <div class="progress-bar-container">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="info">
+                <p>Score: <span id="score">0</span> / <span id="limit">100</span></p>
+                <p>Level: <span id="level">1</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="meta.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tasker - Main</title>
+    <link rel="stylesheet" href="meta.css">
+</head>
+<body class="bodyB">
+    <header class="cab cabB">
+        <h1 class="h1B">Tasker - Main</h1>
+        <div class="menu-container">
+            <div class="menu-icon menu-iconB"></div>
+            <nav class="side-menu liB">
+                <ul>
+                    <li><a class="aB" href="metainB.html">Main</a></li>
+                    <li><a class="aB" href="lojainB.html">Store</a></li>
+                    <li><a class="aB" href="amigosinB.html">Friends</a></li>
+                    <li><a class="aB" href="configsinB.html">Settings</a></li>
+                    <li><a class="aB" href="cadastroinB.html">User</a></li>
+                </ul>
+                <ul id="ul1">
+                    <li class="aB" id="user-display">User: Disconnected</li>
+                </ul>
+                <button id="delcont" class="enviarTask">Log Out of Your Account</button>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="all">
+        <label class="ptsB" id="txt2">Your score is:</label>
+        <label class="ptsB" id="score-value">0</label>
+        <label class="ptsB" id="txt4">Pts</label>
+        <br>
+        <label class="ptsB" id="txt5">Total Score:</label>
+        <label class="ptsB" id="infinite-score-value">0</label>
+        <label class="ptsB" id="txt6">Pts</label>
+        <br>
+        <label class="ptsB" id="txt7">Taskoins:</label>
+        <label class="ptsB" id="daily-score">0</label>
+        <label class="ptsB" id="txt8">T$</label>
+        <br>
+        <button type="submit" class="enviarTask" id="meuBotao">Submit you Task!</button>
+        <input type="text" id="campo">
+        <br>
+        <div id="task-container" class="task-containerB"></div>
+
+        <div class="container">
+            <h1 class="bpB">Progress Bar</h1>
+            <div class="progress-bar-container progress-bar-containerB">
+                <div class="progress-bar progress-barB"></div>
+            </div>
+            <div class="info infoB">
+                <p>Score: <span id="score">0</span> / <span id="limit">100</span></p>
+                <p>Level: <span id="level">1</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="meta.js" defer></script>
+</body>
+</html>
