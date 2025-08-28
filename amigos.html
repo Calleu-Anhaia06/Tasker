@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Tasker - Amizades</title>
     <link rel="stylesheet" href="meta.css">
+    <link rel="stylesheet" href="amigos.css">
 </head>
 <body id="body">
     <header class="cab">
@@ -16,7 +17,7 @@
                     <li><a href="loja.html">Loja</a></li>
                     <li><a href="amigos.html">Amizades</a></li>
                     <li><a href="configs.html">Configurações</a></li>
-                    <li><a href="cadastro.html">Usuário</a></li> </ul>
+                    <li><a href="cadastro.html">Usuário</a></li>
                 </ul>
                 <ul id="ul1">
                     <li id="user-display">Usuário: Desconectado</li>
@@ -25,6 +26,36 @@
             </nav>
         </div>
     </header>
+
+    <main class="all">
+        <section class="amizade-section">
+            <h2>Adicionar Amigos</h2>
+            <div class="add-friend">
+                <input type="text" id="friend-username" placeholder="Nome de usuário do amigo">
+                <button id="send-request-btn" class="enviarTask">Enviar Solicitação</button>
+            </div>
+            <p id="message-display"></p>
+        </section>
+
+        <section class="amizade-section">
+            <h2>Suas Amizades</h2>
+            <label id="friends-list">
+                </label>
+        </section>
+        
+        <section class="amizade-section">
+            <h2>Solicitações Pendentes</h2>
+            <div class="requests-container">
+                <h3>Recebidas</h3>
+                <label id="received-requests-list">
+                    </label>
+                <h3>Enviadas</h3>
+                <label id="sent-requests-list">
+                    </label>
+            </div>
+        </section>
+    </main>
+    <script src="amigos.js" defer></script>
     <script src="meta.js" defer></script>
 </body>
 </html>

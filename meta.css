@@ -484,3 +484,15 @@ h1 {
     padding: 10px;
     left: 150px;
 }
+
+.enviarTaskB{
+    background-color: #333;
+}
+
+.enviarTaskG{
+    background-color: green;
+}
+
+.enviarTaskR{
+    background-color: red;
+}

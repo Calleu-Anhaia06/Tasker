@@ -66,6 +66,162 @@ delCont.addEventListener('click', () => {
         window.location.reload();
     }
 }
+    if(window.location.href.includes('amigos.html')){
+        const confirmDelete = confirm('Tem certeza de que deseja sair de sua conta?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Sua conta foi removida com sucesso!');
+        window.location.href = 'index.html';
+        saveState();
+    }
+}
+    if(window.location.href.includes('amigosB.html')){
+        const confirmDelete = confirm('Tem certeza de que deseja sair de sua conta?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Sua conta foi removida com sucesso!');
+        window.location.href = 'metaB.html';
+        saveState();
+    }
+}
+    if(window.location.href.includes('amigosin.html')){
+        const confirmDelete = confirm('Are you sure you want to log out of your account?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Your account ha been successfully removed!');
+        window.location.href = 'metain.html';
+        saveState();
+    }
+}
+    if(window.location.href.includes('amigosinB.html')){
+        const confirmDelete = confirm('Are you sure you want to log out of your account?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Your account ha been successfully removed!');
+        window.location.href = 'metainB.html';
+        saveState();
+    }
+}
+    if(window.location.href.includes('configs.html')){
+        const confirmDelete = confirm('Tem certeza de que deseja sair de sua conta?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Sua conta foi removida com sucesso!');
+        window.location.href = 'index.html';
+        saveState();
+    }
+}
+    if(window.location.href.includes('configsB.html')){
+        const confirmDelete = confirm('Tem certeza de que deseja sair de sua conta?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Sua conta foi removida com sucesso!');
+        window.location.href = 'metaB.html';
+        saveState();
+    }
+}
+    if(window.location.href.includes('configsin.html')){
+        const confirmDelete = confirm('Are you sure you want to log out of your account?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Your account ha been successfully removed!');
+        window.location.href = 'metain.html';
+        saveState();
+    }
+}
+    if(window.location.href.includes('configsinB.html')){
+        const confirmDelete = confirm('Are you sure you want to log out of your account?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Your account ha been successfully removed!');
+        window.location.href = 'metainB.html';
+        saveState();
+    }
+}
+    if(window.location.href.includes('loja.html')){
+        const confirmDelete = confirm('Tem certeza de que deseja sair de sua conta?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Sua conta foi removida com sucesso!');
+        window.location.href = 'index.html';
+        saveState();
+    }
+}
+    if(window.location.href.includes('lojaB.html')){
+        const confirmDelete = confirm('Tem certeza de que deseja sair de sua conta?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Sua conta foi removida com sucesso!');
+        window.location.href = 'metaB.html';
+        saveState();
+    }
+}
+    if(window.location.href.includes('lojain.html')){
+        const confirmDelete = confirm('Are you sure you want to log out of your account?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Your account ha been successfully removed!');
+        window.location.href = 'metain.html';
+        saveState();
+    }
+}
+    if(window.location.href.includes('lojainB.html')){
+        const confirmDelete = confirm('Are you sure you want to log out of your account?');
+        if (confirmDelete) {
+        // Remove os dados do localStorage
+        localStorage.removeItem(`taskerState_${currentUser}`);
+        localStorage.removeItem('currentUser');
+        
+        // Alerta e recarrega a página para o estado inicial
+        alert('Your account ha been successfully removed!');
+        window.location.href = 'metainB.html';
+        saveState();
+    }
+}
 });
 
 

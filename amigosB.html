@@ -21,10 +21,39 @@
                 <ul id="ul1">
                     <li class="aB" id="user-display">Usuário: Desconectado</li>
                 </ul>
-                <button id="delcont" class="enviarTask">Sair da sua Conta</button>
+                <button id="delcont" class="enviarTask enviarTaskB">Sair da sua Conta</button>
             </nav>
         </div>
     </header>
+    <main class="all">
+        <section class="amizade-section">
+            <h2 class="h1B">Adicionar Amigos</h2>
+            <div class="add-friend">
+                <input type="text" id="friend-username" placeholder="Nome de usuário do amigo">
+                <button id="send-request-btn" class="enviarTask">Enviar Solicitação</button>
+            </div>
+            <p id="message-display"></p>
+        </section>
+
+        <section class="amizade-section">
+            <h2 class="h1B">Suas Amizades</h2>
+            <label id="friends-list" class="h1B">
+                </label>
+        </section>
+        
+        <section class="amizade-section">
+            <h2 class="h1B">Solicitações Pendentes</h2>
+            <div class="requests-container">
+                <h3 class="h1B">Recebidas</h3>
+                <label id="received-requests-list" class="h1B">
+                    </label>
+                <h3 class="h1B">Enviadas</h3>
+                <label id="sent-requests-list" class="h1B">
+                    </label>
+            </div>
+        </section>
+    </main>
+    <script src="amigos.js" defer></script>
     <script src="meta.js" defer></script>
 </body>
 </html>

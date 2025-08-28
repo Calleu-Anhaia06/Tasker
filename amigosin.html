@@ -25,6 +25,35 @@
             </nav>
         </div>
     </header>
+    <main class="all">
+        <section class="amizade-section">
+            <h2>Add Friends</h2>
+            <div class="add-friend">
+                <input type="text" id="friend-username" placeholder="Nome de usuário do amigo">
+                <button id="send-request-btn" class="enviarTask">Send Reqest</button>
+            </div>
+            <p id="message-display"></p>
+        </section>
+
+        <section class="amizade-section">
+            <h2>Your Friendships</h2>
+            <label id="friends-list">
+                </label>
+        </section>
+        
+        <section class="amizade-section">
+            <h2>Pending Requests</h2>
+            <div class="requests-container">
+                <h3>Received</h3>
+                <label id="received-requests-list">
+                    </label>
+                <h3>Sent</h3>
+                <label id="sent-requests-list">
+                    </label>
+            </div>
+        </section>
+    </main>
+    <script src="amigos.js" defer></script>
     <script src="meta.js" defer></script>
 </body>
 </html>
